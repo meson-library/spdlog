@@ -1,0 +1,6 @@
+Additional licenses also apply to this software package as detailed below.
+
+
+
+This software depends on the fmt lib (MIT License),
+and users must comply to its license: https://github.com/fmtlib/fmt/blob/master/LICENSE.rst

@@ -1,0 +1,9 @@
+option('build_examples',
+        description : 'Build the spdlog benchmark program.',
+        type        : 'boolean',
+        value       : false)
+
+option('build_tests',
+        description : 'Build the spdlog test program.',
+        type        : 'boolean',
+        value       : false)
