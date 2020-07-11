@@ -1,0 +1,4 @@
+[wrap-git]
+directory = spdlog-1.7.0
+url = https://github.com/meson-library/spdlog.git
+revision = v1.7.0
