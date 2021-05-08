@@ -1,5 +1,5 @@
 
-includes = [include_directories('.')] 
+includes = [include_directories('.')]
 
 sources = [ 'test_file_helper.cpp',
             'test_file_logging.cpp',
@@ -28,9 +28,8 @@ sources = [ 'test_file_helper.cpp',
 spdlog_utests = executable('spdlog_utests',
                            include_directories : includes,
                            sources             : sources,
-                           cpp_args            : cpp_args, 
+                           cpp_args            : common_cpp_args,
                            dependencies        : [spdlog_dep],
                            install             : true)
 
 
- 

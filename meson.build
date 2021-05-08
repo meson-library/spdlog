@@ -20,10 +20,11 @@ cppc_id = cppc.get_id()
 
 lib_type    = get_option('default_library')
 
-includes  = []
-sources   = []
-cpp_args    = []
-link_args = []
+includes          = []
+sources           = []
+common_cpp_args   = []
+specific_cpp_args = []
+link_args         = []
 
 
 
@@ -66,8 +67,8 @@ endif
 install_subdir('include/spdlog',
                install_dir : 'include')
 
-install_data(['LICENSE', 
+install_data(['LICENSE',
               '3RDPARTYLICENSES.TXT'],
-               rename : ['LICENSE.MIT', 
+               rename : ['LICENSE.MIT',
                          '3RDPARTYLICENSES.TXT'],
                install_dir :  'share/licenses/spdlog')
